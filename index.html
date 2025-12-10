@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Fliq - Watch Movies & Series Online</title>
+    <meta name="description" content="Stream unlimited movies and TV series on Fliq. Watch anywhere, anytime. Browse trending content, new releases, and your favorite genres." />
+    <meta name="author" content="Fliq" />
+    <meta name="keywords" content="movies, streaming, TV series, watch online, entertainment, fliq" />
+
+    <link rel="canonical" href="https://fliqstream.netlify.app" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+
+    <!-- PWA & mobile fullscreen support -->
+    <link rel="manifest" href="./manifest.json" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="theme-color" content="#FF0000" />
+
+    <style>
+      /* Allow full viewport for mobile fullscreen */
+      html, body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      #root {
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      /* Scrollable content for non-video pages */
+      .scrollable {
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/index-BkgGSBUw.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-B9okOii6.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script>
+      // Hide mobile URL bar on load
+      window.addEventListener('load', () => {
+        setTimeout(() => {
+          window.scrollTo(0, 1);
+        }, 0);
+      });
+    </script>
+  </body>
+</html>

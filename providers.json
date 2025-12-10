@@ -1,0 +1,66 @@
+[
+  {
+    "id": "cinemaos",
+    "name": "CinemaOS",
+    "useTmdbId": true,
+    "needsNoSandbox": false,
+    "getMovieUrl": "https://cinemaos.tech/player/{id}",
+    "getSeriesUrl": "https://cinemaos.tech/player/{id}/{season}/{episode}"
+  },
+  {
+    "id": "vidking",
+    "name": "VidKing",
+    "useTmdbId": true,
+    "needsNoSandbox": true,
+    "getMovieUrl": "https://vidking.net/embed/movie/{id}?autoPlay=true&fullscreen=true",
+    "getSeriesUrl": "https://vidking.net/embed/tv/{id}/{season}/{episode}?autoPlay=true&nextEpisode=true&episodeSelector=true"
+  },
+  {
+    "id": "mapple",
+    "name": "VidFast",
+    "useTmdbId": true,
+    "needsNoSandbox": true,
+    "getMovieUrl": "https://vidfast.pro/movie/{id}?autoPlay=true&fullscreenButton=true",
+    "getSeriesUrl": "https://vidfast.pro/tv/{id}/{season}/{episode}?autoPlay=true&nextButton=true&fullscreenButton=true"
+  },
+  {
+    "id": "rivestream",
+    "name": "Rivestream",
+    "useTmdbId": false,
+    "needsNoSandbox": true,
+    "getMovieUrl": "https://play.xpass.top/e/movie/{id}?autostart=true",
+    "getSeriesUrl": "https://rivestream.org/embed?type=tv&id={id}&season={season}&episode={episode}"
+  },
+  {
+    "id": "cinetaro",
+    "name": "Cinetaro",
+    "useTmdbId": true,
+    "needsNoSandbox": false,
+    "getMovieUrl": "https://api.cinetaro.buzz/movie/{id}/english",
+    "getSeriesUrl": "https://api.cinetaro.buzz/tv/{id}/{season}/{episode}/english"
+  },
+  {
+    "id": "vidrock",
+    "name": "VidRock",
+    "useTmdbId": true,
+    "needsNoSandbox": true,
+    "getMovieUrl": "https://vidrock.net/movie/{id}?autoplay=true&download=false",
+    "getSeriesUrl": "https://vidrock.net/tv/{id}/{season}/{episode}?autoplay=true&download=false"
+  },
+  {
+    "id": "vidzee",
+    "name": "Vidzee",
+    "useTmdbId": true,
+    "needsNoSandbox": true,
+    "getMovieUrl": "https://player.vidzee.wtf/embed/movie/{id}",
+    "getSeriesUrl": "https://player.vidzee.wtf/embed/tv/{id}/{season}/{episode}"
+  },
+  {
+    "id": "xpass",
+    "name": "XPass",
+    "useTmdbId": true,
+    "needsNoSandbox": false,
+    "getMovieUrl": "https://play.xpass.top/e/movie/{id}?autostart=true",
+    "getSeriesUrl": "https://play.xpass.top/e/tv/{id}/{season}/{episode}?autostart=true"
+  }
+]

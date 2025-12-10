@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.netlify.fliqstream.twa",
+      "sha256_cert_fingerprints": [
+        "92:3E:5C:F1:4F:9A:7F:D4:D9:CE:AE:BD:58:94:63:B3:4C:15:DE:50:0B:95:13:2F:20:E6:3B:1F:33:E7:4D:52"
+      ]
+    }
+  }
+]
